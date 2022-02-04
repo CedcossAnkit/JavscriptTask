@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javscript.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Calculate Area and Pirimeter</h1>
+    </div>
+    <div id="main">
+        <div id="box">
+            <label for="">Enter Length Of Reactangle:(mtr) </label><input type="text" name="" id="length"><br><br>
+            <label for="">Enter Width Of Reactangle:(mtr) </label><input type="text" name="" id="width"><br>
+            <button onclick="area(); pirimeter();">Calculate Area & Pirimeter</button><br><br>
+            <labe>Area is : </labe><label for="" id="ar"></label><br>
+            <label>Pirimeter is :</label><label for="" id="piri"> </label>
+        </div>
+
+
+        <h1>Time Convertor</h1>
+
+        <div id="convertor">
+            <input type="text" name="" id="time"><br>
+            <label for="">Convert Mt to Hour</label><input type="radio" name="same" id="hr"><br>
+            <label for="">Convert Hour to mt</label><input type="radio" name="same" id="mt"><br>
+            <label for="">Hour to mt: </label><label for="" id="labm"></label><br>
+            <label for="">mt to hour: </label><label for="" id="labh"></label><br>
+            <button onclick="ConHour();">Convert Time</button>
+
+        </div>
+
+        <script>
+            function ConHour(){
+                var a=Number(document.getElementById('time').value);
+                var rd=document.getElementById('same');
+                if(document.getElementById('hr').checked){
+                    document.getElementById('labm').innerHTML=a/60+" hr";
+                }
+                else{
+                    
+                    document.getElementById('labh').innerHTML=a*60+"S";
+                    
+                }
+
+
+                
+            }
+        </script>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>

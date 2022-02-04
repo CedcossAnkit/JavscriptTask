@@ -1,0 +1,40 @@
+
+/* area and pirimeter convertor*/
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+#box {
+  text-align: center;
+  border: 1px solid red;
+  display: block;
+  height: 13rem;
+  width: 35rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+#length {
+  margin-top: 1rem;
+}
+button {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+#box {
+  background: lightblue;
+}
+
+/* hr to mt and mt to hr convertor*/
+
+#convertor{
+    text-align: center;
+    border: 1px solid red;
+    display: block;
+    height: 13rem;
+    width: 35rem;
+    margin: auto;
+    margin-top: 5rem;  
+    padding: 20px 20px;  
+    background-color: lightcoral;
+}
