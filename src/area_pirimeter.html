@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javscript.js"></script>
 </head>
 
 <body>
@@ -18,7 +17,7 @@
         <div id="box">
             <label for="">Enter Length Of Reactangle:(mtr) </label><input type="text" name="" id="length"><br><br>
             <label for="">Enter Width Of Reactangle:(mtr) </label><input type="text" name="" id="width"><br>
-            <button onclick="area(); pirimeter();">Calculate Area & Pirimeter</button><br><br>
+            <button onclick="area();">Calculate Area & Pirimeter</button><br><br>
             <labe>Area is : </labe><label for="" id="ar"></label><br>
             <label>Pirimeter is :</label><label for="" id="piri"> </label>
         </div>
@@ -36,23 +35,7 @@
 
         </div>
 
-        <script>
-            function ConHour(){
-                var a=Number(document.getElementById('time').value);
-                var rd=document.getElementById('same');
-                if(document.getElementById('hr').checked){
-                    document.getElementById('labm').innerHTML=a/60+" hr";
-                }
-                else{
-                    
-                    document.getElementById('labh').innerHTML=a*60+"S";
-                    
-                }
-
-
-                
-            }
-        </script>
+        <script src="javscript.js"></script>
     </div>
     <div id="footer"></div>
 </body>
